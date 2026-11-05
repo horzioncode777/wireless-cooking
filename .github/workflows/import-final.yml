@@ -1,0 +1,71 @@
+name: Importar versión final
+
+on:
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+concurrency:
+  group: importar-version-final
+  cancel-in-progress: false
+
+jobs:
+  importar:
+    if: github.repository == 'horzioncode777/wireless-cooking' && github.actor == 'horzioncode777'
+    runs-on: ubuntu-24.04
+    timeout-minutes: 15
+    steps:
+      - uses: actions/checkout@d23441a48e516b6c34aea4fa41551a30e30af803
+        with:
+          ref: main
+      - name: Descargar y verificar las fuentes preparadas
+        env:
+          IMPORT_TOKEN: ${{ github.token }}
+        run: |
+          python3 - <<'PY'
+          import hashlib, json, os, pathlib, stat, subprocess, urllib.request, zipfile
+          api='https://api.github.com/repos/horzioncode777/wireless-cooking'
+          headers={'Authorization':'Bearer '+os.environ['IMPORT_TOKEN'],'Accept':'application/vnd.github+json','X-GitHub-Api-Version':'2022-11-28'}
+          request=urllib.request.Request(api+'/releases?per_page=100',headers=headers)
+          with urllib.request.urlopen(request,timeout=30) as response:
+              releases=json.load(response)
+          assets=[asset for release in releases if release['tag_name']=='version-final' for asset in release['assets'] if asset['name']=='wireless-cooking-final.zip' and asset['state']=='uploaded']
+          if len(assets)!=1:
+              raise SystemExit('Se requiere un único paquete completo en la publicación version-final.')
+          archive=pathlib.Path(os.environ['RUNNER_TEMP'])/'wireless-cooking-final.zip'
+          subprocess.run(['curl','--fail','--location','--retry','3','--silent','--show-error','-H','Authorization: '+headers['Authorization'],'-H','Accept: application/octet-stream',assets[0]['url'],'--output',str(archive)],check=True)
+          expected='b4432b950d9bbbc99a264cf94e29fa03540e6a5b30f06ac0a168ff8cc7589850'
+          if hashlib.file_digest(archive.open('rb'),'sha256').hexdigest()!=expected:
+              raise SystemExit('El SHA-256 del paquete no coincide.')
+          root=pathlib.Path.cwd().resolve()
+          paths=[]
+          with zipfile.ZipFile(archive) as source:
+              files=[entry for entry in source.infolist() if not entry.is_dir()]
+              if len(files)!=391:
+                  raise SystemExit('El paquete no contiene los 391 archivos previstos.')
+              for entry in files:
+                  relative=pathlib.PurePosixPath(entry.filename)
+                  if relative.is_absolute() or '..' in relative.parts or '.git' in relative.parts or stat.S_ISLNK(entry.external_attr >> 16):
+                      raise SystemExit('Ruta de archivo no permitida.')
+                  if relative.parts[0]=='.github':
+                      continue
+                  if relative.name.startswith('.env') and relative.name!='.env.example':
+                      raise SystemExit('Se encontró una configuración privada.')
+                  destination=root.joinpath(*relative.parts)
+                  if not destination.resolve().is_relative_to(root):
+                      raise SystemExit('La ruta está fuera del repositorio.')
+                  destination.parent.mkdir(parents=True,exist_ok=True)
+                  destination.write_bytes(source.read(entry))
+                  paths.append(relative.as_posix())
+          subprocess.run(['git','add','--',*paths],check=True)
+          print('SHA-256 verificado. Archivos preparados:',len(paths))
+          PY
+      - name: Guardar la versión final en main
+        run: |
+          git config user.name 'github-actions[bot]'
+          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+          if ! git diff --cached --quiet; then
+            git commit -m 'Publicar versión final de Wireless Cooking'
+            git push origin HEAD:main
+          fi
