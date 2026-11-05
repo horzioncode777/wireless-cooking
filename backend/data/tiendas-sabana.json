@@ -1,0 +1,532 @@
+[
+  {
+    "slug": "maison-ceramique",
+    "nombre": "Maison Ceramique",
+    "ciudad": "Chía",
+    "responsable": "Valentina Rojas",
+    "fundacion": 2019,
+    "lema": "Elegancia que se comparte en la mesa.",
+    "especialidad": "Porcelana fina y mesa elegante",
+    "descripcion": "Vajillas de porcelana fina y accesorios de mesa de estilo clásico contemporáneo. Colecciones en tonos marfil, detalles dorados y piezas pensadas para celebraciones y encuentros especiales.",
+    "historia": "Maison Ceramique nace, en esta historia ficticia, de la pasión de Valentina Rojas por reunir a las personas alrededor de una mesa bien puesta. Desde Chía, la marca propone combinar piezas atemporales con detalles delicados que puedan acompañar distintos momentos del hogar.\n\nSu propuesta une selección de porcelana, asesoría de composición y colecciones coordinadas para regalos y celebraciones. Cada línea se concibe para que una taza, un plato y una pieza de servicio conversen entre sí sin perder personalidad.",
+    "valores": [
+      "Diseño atemporal",
+      "Atención cercana",
+      "Cuidado de los detalles"
+    ],
+    "servicios": [
+      "Asesoría para combinar vajillas",
+      "Selección de regalos de mesa",
+      "Colecciones para ocasiones especiales"
+    ],
+    "horario": "Lunes a viernes: 9:00 a. m. a 6:00 p. m. · Sábado: 10:00 a. m. a 4:00 p. m.",
+    "sector": "Centro de Chía · sala de exhibición MC-01",
+    "color": "#8b6b30",
+    "banner": "dinnerware",
+    "productos": [
+      {
+        "slug": "maison-tazas",
+        "nombre": "Dúo de tazas de porcelana Éclat",
+        "categoria": "Vajillas",
+        "precio": 129000,
+        "stock": 18,
+        "material": "Porcelana esmaltada con detalle dorado",
+        "descripcion": "Dos tazas con sus respectivos platos, en porcelana color marfil con un borde dorado fino. Una combinación delicada para servir café y acompañar sobremesas especiales.",
+        "contenido": "2 tazas y 2 platos",
+        "medidas": "Capacidad de referencia: 120 ml por taza",
+        "color": "Marfil y dorado",
+        "cuidados": "Lavar a mano con esponja suave. No usar en microondas por el detalle metálico."
+      },
+      {
+        "slug": "maison-platos",
+        "nombre": "Set de cuatro platos de porcelana Lumière",
+        "categoria": "Vajillas",
+        "precio": 198000,
+        "stock": 12,
+        "material": "Porcelana esmaltada con detalle dorado",
+        "descripcion": "Cuatro platos llanos de líneas sencillas y borde dorado. Su tono marfil permite combinarlos con mantelería neutra, cristalería y piezas de servicio para una mesa elegante.",
+        "contenido": "4 platos llanos",
+        "medidas": "Diámetro de referencia: 27 cm",
+        "color": "Marfil y dorado",
+        "cuidados": "Lavar a mano, secar con paño suave y separar las piezas al apilarlas."
+      }
+    ]
+  },
+  {
+    "slug": "tierra-viva-ceramica",
+    "nombre": "Tierra Viva Cerámica",
+    "ciudad": "Tabio",
+    "responsable": "Camila Bernal",
+    "fundacion": 2017,
+    "lema": "La calidez de la tierra, en tu mesa.",
+    "especialidad": "Cerámica artesanal y tonos naturales",
+    "descripcion": "Cerámica de inspiración natural con texturas, tonos cálidos y acabados que celebran el oficio artesanal. Cuencos, tazas y piezas de servicio para disfrutar los rituales cotidianos.",
+    "historia": "La historia ficticia de Tierra Viva comienza en un pequeño taller de Tabio donde Camila Bernal imagina una vajilla cercana al paisaje de la Sabana: tierra húmeda, hojas de olivo y luz de la mañana. Sus colecciones recuperan formas sencillas y la belleza de las pequeñas variaciones del trabajo manual.\n\nLa marca propone piezas que invitan a detenerse: un café acompañado, una sopa servida con cuidado o una mesa para compartir. Sus combinaciones de terracota y esmaltes crema permiten construir una colección de manera gradual.",
+    "valores": [
+      "Identidad artesanal",
+      "Calidez cotidiana",
+      "Respeto por el oficio"
+    ],
+    "servicios": [
+      "Selección de piezas para el hogar",
+      "Combinaciones de tazas y cuencos",
+      "Orientación de cuidado de cerámica"
+    ],
+    "horario": "Martes a sábado: 9:30 a. m. a 5:30 p. m. · Domingo: 10:00 a. m. a 2:00 p. m.",
+    "sector": "Sector artesanal de Tabio · taller TV-02",
+    "color": "#a85331",
+    "banner": "ceramic-bowl",
+    "productos": [
+      {
+        "slug": "tierra-cuenco",
+        "nombre": "Cuenco artesanal Raíz de Terracota",
+        "categoria": "Cerámica",
+        "precio": 78000,
+        "stock": 16,
+        "material": "Cerámica terracota con interior esmaltado",
+        "descripcion": "Cuenco amplio con exterior terracota e interior crema moteado. Su silueta orgánica aporta una presencia cálida al servir ensaladas, frutas o preparaciones al centro de la mesa.",
+        "contenido": "1 cuenco de servicio",
+        "medidas": "Diámetro de referencia: 24 cm",
+        "color": "Terracota y crema",
+        "cuidados": "Lavar suavemente a mano. Evitar choques térmicos y golpes en el borde."
+      },
+      {
+        "slug": "tierra-tazas",
+        "nombre": "Dúo de tazas artesanales Amanecer",
+        "categoria": "Cerámica",
+        "precio": 69000,
+        "stock": 22,
+        "material": "Cerámica gres esmaltada",
+        "descripcion": "Dos tazas de cuerpo redondeado, base terracota y esmalte crema moteado. Una propuesta de apariencia artesanal para el café, la aromática o el chocolate de cada mañana.",
+        "contenido": "2 tazas",
+        "medidas": "Capacidad de referencia: 300 ml por taza",
+        "color": "Crema moteado y terracota",
+        "cuidados": "Usar esponja suave y secar antes de guardar. Evitar cambios bruscos de temperatura."
+      }
+    ]
+  },
+  {
+    "slug": "mosaico-ceramics",
+    "nombre": "Mosaico Ceramics",
+    "ciudad": "Tenjo",
+    "responsable": "Juliana Pardo",
+    "fundacion": 2020,
+    "lema": "Una mesa con color y personalidad.",
+    "especialidad": "Cerámica artística y vajillas decorativas",
+    "descripcion": "Piezas de cerámica artística con motivos vegetales, colores vibrantes y composiciones inspiradas en el mosaico. Objetos para servir, decorar y dar carácter a una mesa compartida.",
+    "historia": "En el universo ficticio de Mosaico Ceramics, Juliana Pardo reúne su interés por la ilustración botánica y la cerámica en un estudio de Tenjo. El punto de partida es una idea sencilla: las piezas de uso diario también pueden contar historias a través del color.\n\nLa marca desarrolla familias de motivos en azul cobalto, amarillo y turquesa. Platos y cuencos se piensan como pequeñas composiciones que funcionan individualmente o juntas, para quienes disfrutan una mesa expresiva y menos uniforme.",
+    "valores": [
+      "Expresión creativa",
+      "Color con intención",
+      "Personalidad en cada pieza"
+    ],
+    "servicios": [
+      "Composición de mesas con color",
+      "Selección de piezas decorativas",
+      "Colecciones coordinadas para regalo"
+    ],
+    "horario": "Lunes a sábado: 9:00 a. m. a 5:00 p. m.",
+    "sector": "Centro de Tenjo · estudio creativo MO-03",
+    "color": "#2455a4",
+    "banner": "dinnerware",
+    "productos": [
+      {
+        "slug": "mosaico-fuente",
+        "nombre": "Fuente decorativa Jardín Cobalto",
+        "categoria": "Cerámica",
+        "precio": 112000,
+        "stock": 10,
+        "material": "Cerámica esmaltada de acabado brillante",
+        "descripcion": "Fuente circular con una composición de flores y hojas en azul cobalto, amarillo y turquesa. Su diseño permite usarla como pieza de servicio o como acento decorativo en una mesa.",
+        "contenido": "1 fuente circular",
+        "medidas": "Diámetro de referencia: 26 cm",
+        "color": "Marfil, azul, amarillo y turquesa",
+        "cuidados": "Lavar a mano sin abrasivos. No colocar directamente sobre una fuente de calor."
+      },
+      {
+        "slug": "mosaico-cuencos",
+        "nombre": "Dúo de cuencos Sol y Hojas",
+        "categoria": "Vajillas",
+        "precio": 86000,
+        "stock": 14,
+        "material": "Cerámica esmaltada",
+        "descripcion": "Dos cuencos pequeños con exterior amarillo, borde azul e interior decorado con hojas en cobalto. Pensados para servir acompañamientos, snacks y pequeños momentos de color.",
+        "contenido": "2 cuencos",
+        "medidas": "Diámetro de referencia: 14 cm por cuenco",
+        "color": "Amarillo, marfil y azul cobalto",
+        "cuidados": "Usar detergente suave y evitar utensilios que rayen el esmalte."
+      }
+    ]
+  },
+  {
+    "slug": "kora-ceramics",
+    "nombre": "Kōra Ceramics",
+    "ciudad": "Sopó",
+    "responsable": "Daniela Sarmiento",
+    "fundacion": 2021,
+    "lema": "Sencillez para disfrutar cada ritual.",
+    "especialidad": "Cerámica minimalista de inspiración japonesa",
+    "descripcion": "Tazones y accesorios de mesa de formas serenas, texturas sutiles y colores naturales. Una selección de cerámica inspirada en la armonía, el equilibrio y los pequeños rituales de la cocina japonesa.",
+    "historia": "Kōra Ceramics es una marca ficticia concebida en Sopó por Daniela Sarmiento para acercar una estética tranquila a la vida cotidiana. Su inspiración parte de los recipientes de té, los acabados minerales y la belleza de los objetos que no necesitan demasiados adornos.\n\nLa propuesta combina tonos arena, oliva y carbón con siluetas cómodas para sostener y usar. Más que una mesa formal, imagina escenas sencillas: preparar un té, servir una sopa o compartir una comida sin prisa.",
+    "valores": [
+      "Armonía visual",
+      "Formas esenciales",
+      "Rituales cotidianos"
+    ],
+    "servicios": [
+      "Selección de cuencos para té",
+      "Combinaciones de mesa minimalista",
+      "Orientación sobre acabados y cuidado"
+    ],
+    "horario": "Martes a sábado: 10:00 a. m. a 6:00 p. m.",
+    "sector": "Centro de Sopó · estudio KO-04",
+    "color": "#6d7053",
+    "banner": "ceramic-bowl",
+    "productos": [
+      {
+        "slug": "kora-matcha",
+        "nombre": "Cuenco de té Nagi Oliva",
+        "categoria": "Cerámica",
+        "precio": 94000,
+        "stock": 15,
+        "material": "Gres con esmalte mineral moteado",
+        "descripcion": "Cuenco de té de inspiración japonesa, esmalte oliva y arena, borde orgánico y base baja. Una pieza de estética serena para acompañar la preparación y el servicio del té.",
+        "contenido": "1 cuenco de té",
+        "medidas": "Diámetro de referencia: 12 cm",
+        "color": "Oliva y arena",
+        "cuidados": "Lavar a mano y secar por completo. No someter a fuego directo."
+      },
+      {
+        "slug": "kora-ramen",
+        "nombre": "Tazón de ramen Sumi Carbón",
+        "categoria": "Vajillas",
+        "precio": 108000,
+        "stock": 18,
+        "material": "Gres esmaltado de acabado mate",
+        "descripcion": "Tazón profundo con exterior carbón, líneas sutiles e interior ceniza moteado. Su forma redondeada se inspira en el servicio de ramen y otras preparaciones de cuchara.",
+        "contenido": "1 tazón profundo",
+        "medidas": "Diámetro de referencia: 20 cm",
+        "color": "Carbón y ceniza",
+        "cuidados": "Lavar con esponja suave. Evitar golpes, abrasivos y cambios bruscos de temperatura."
+      }
+    ]
+  },
+  {
+    "slug": "aurea-kitchen",
+    "nombre": "Aurea Kitchen",
+    "ciudad": "Cota",
+    "responsable": "Mariana Vélez",
+    "fundacion": 2018,
+    "lema": "Diseño que acompaña tu manera de cocinar.",
+    "especialidad": "Utensilios y accesorios de cocina de alta gama",
+    "descripcion": "Accesorios de cocina de diseño contemporáneo, acabados cuidados y una identidad en negro y dorado. Una propuesta para quienes buscan combinar utilidad y estilo en los objetos de cada día.",
+    "historia": "La historia ficticia de Aurea Kitchen se sitúa en Cota, donde Mariana Vélez imagina una colección de accesorios que pueda integrarse a una cocina contemporánea sin esconderse en un cajón. La selección se concentra en líneas limpias, materiales de apariencia sobria y detalles dorados.\n\nLa marca propone adquirir menos piezas, pero elegirlas con intención: utensilios que se coordinan entre sí, accesorios que ordenan visualmente la encimera y objetos de regalo que resultan útiles desde el primer día.",
+    "valores": [
+      "Diseño funcional",
+      "Acabados cuidados",
+      "Selección consciente"
+    ],
+    "servicios": [
+      "Selección de accesorios coordinados",
+      "Regalos para cocina contemporánea",
+      "Asesoría de estilo para la encimera"
+    ],
+    "horario": "Lunes a viernes: 9:00 a. m. a 6:00 p. m. · Sábado: 9:00 a. m. a 1:00 p. m.",
+    "sector": "Zona comercial de Cota · showroom AU-05",
+    "color": "#9a7730",
+    "banner": "steel-ladle",
+    "productos": [
+      {
+        "slug": "aurea-utensilios",
+        "nombre": "Set de utensilios Noir Doré",
+        "categoria": "Utensilios",
+        "precio": 169000,
+        "stock": 20,
+        "material": "Acero con acabado dorado y mangos de tacto mate",
+        "descripcion": "Conjunto de cuatro utensilios con cabezales de acabado dorado y mangos negros: espátula ranurada, cuchara de servicio, cucharón y batidor. Una familia visual para equipar una cocina de estilo contemporáneo.",
+        "contenido": "1 espátula, 1 cuchara, 1 cucharón y 1 batidor",
+        "medidas": "Longitud de referencia: entre 28 y 33 cm",
+        "color": "Negro mate y dorado",
+        "cuidados": "Lavar a mano. Evitar abrasivos y comprobar compatibilidad con el recubrimiento de tus recipientes."
+      },
+      {
+        "slug": "aurea-molinillo",
+        "nombre": "Molinillo de pimienta Nero",
+        "categoria": "Accesorios",
+        "precio": 89000,
+        "stock": 24,
+        "material": "Cuerpo de madera pintada con detalles metálicos",
+        "descripcion": "Molinillo alto de silueta sencilla, acabado negro mate y acentos dorados discretos. Un accesorio para terminar platos y dar continuidad al estilo de la mesa o la cocina.",
+        "contenido": "1 molinillo sin especias",
+        "medidas": "Altura de referencia: 22 cm",
+        "color": "Negro y dorado",
+        "cuidados": "Limpiar el exterior con un paño ligeramente húmedo. No sumergir ni guardar con humedad."
+      }
+    ]
+  },
+  {
+    "slug": "ecochef-natural",
+    "nombre": "EcoChef Natural",
+    "ciudad": "Cajicá",
+    "responsable": "Nicolás Camargo",
+    "fundacion": 2020,
+    "lema": "Pequeñas elecciones para cocinar con conciencia.",
+    "especialidad": "Bambú, madera y accesorios reutilizables",
+    "descripcion": "Utensilios de bambú y madera, accesorios reutilizables y alternativas para reducir el uso de desechables. Una selección de estilo natural para preparar y servir con sencillez.",
+    "historia": "EcoChef Natural es una empresa ficticia imaginada en Cajicá por Nicolás Camargo. Su punto de partida es revisar los objetos que se utilizan todos los días y encontrar alternativas duraderas, reparables o reutilizables donde sea posible.\n\nSu catálogo se concentra en herramientas sencillas de madera y bambú y en la información necesaria para cuidarlas. La propuesta no atribuye certificaciones ambientales a los productos: invita a conocer los materiales y extender su uso con mantenimiento adecuado.",
+    "valores": [
+      "Reutilización cotidiana",
+      "Información clara",
+      "Cuidado de los materiales"
+    ],
+    "servicios": [
+      "Selección de utensilios naturales",
+      "Orientación de mantenimiento de madera",
+      "Kits de cocina para nuevos hogares"
+    ],
+    "horario": "Lunes a sábado: 8:30 a. m. a 5:30 p. m.",
+    "sector": "Zona urbana de Cajicá · punto EC-06",
+    "color": "#52633b",
+    "banner": "wood-utensils",
+    "productos": [
+      {
+        "slug": "ecochef-utensilios",
+        "nombre": "Set de cinco utensilios Bambú Esencial",
+        "categoria": "Utensilios",
+        "precio": 49000,
+        "stock": 35,
+        "material": "Bambú natural",
+        "descripcion": "Cinco herramientas de bambú para tareas de preparación y servicio. El conjunto combina cucharas, espátulas y una paleta para arroz en un acabado natural de tonos miel.",
+        "contenido": "2 cucharas, 2 espátulas y 1 paleta para arroz",
+        "medidas": "Longitud de referencia: 30 cm",
+        "color": "Bambú natural",
+        "cuidados": "Lavar a mano sin remojar y secar de inmediato. No usar en lavavajillas."
+      },
+      {
+        "slug": "ecochef-tabla",
+        "nombre": "Tabla de acacia Bosque",
+        "categoria": "Accesorios",
+        "precio": 74000,
+        "stock": 25,
+        "material": "Madera de acacia",
+        "descripcion": "Tabla rectangular con esquinas redondeadas y mango integrado, pensada para cortar o presentar alimentos. El veteado natural aporta un aspecto cálido y puede variar entre piezas.",
+        "contenido": "1 tabla de madera",
+        "medidas": "Superficie de referencia: 35 × 22 cm",
+        "color": "Madera natural",
+        "cuidados": "Lavar y secar inmediatamente. Mantener con aceite apto para utensilios de cocina según las indicaciones del fabricante."
+      }
+    ]
+  },
+  {
+    "slug": "gastropro-equipment",
+    "nombre": "GastroPro Equipment",
+    "ciudad": "Funza",
+    "responsable": "Andrés Molina",
+    "fundacion": 2016,
+    "lema": "Herramientas pensadas para el ritmo de tu cocina.",
+    "especialidad": "Equipamiento y utensilios profesionales",
+    "descripcion": "Recipientes y utensilios de trabajo para restaurantes, hoteles y emprendimientos gastronómicos. Una selección enfocada en formas funcionales, materiales resistentes y organización de la producción.",
+    "historia": "GastroPro Equipment se presenta como una empresa ficticia de Funza creada por Andrés Molina para acompañar las necesidades de pequeños negocios de alimentos. Su identidad parte de una cocina de trabajo: superficies despejadas, herramientas claras y recipientes que facilitan organizar las preparaciones.\n\nLa marca reúne piezas de cocción y servicio e información útil sobre capacidades, limpieza y uso. Busca que quien está equipando una cocina pueda comparar opciones sin depender únicamente de la apariencia del producto.",
+    "valores": [
+      "Funcionalidad de trabajo",
+      "Claridad en la selección",
+      "Atención al emprendimiento"
+    ],
+    "servicios": [
+      "Orientación para equipar cocinas",
+      "Selección de recipientes de trabajo",
+      "Atención a emprendimientos gastronómicos"
+    ],
+    "horario": "Lunes a viernes: 8:00 a. m. a 5:00 p. m. · Sábado: 8:00 a. m. a 12:00 m.",
+    "sector": "Zona comercial de Funza · bodega GP-07",
+    "color": "#243d56",
+    "banner": "steel-pot",
+    "productos": [
+      {
+        "slug": "gastropro-olla",
+        "nombre": "Olla de trabajo ProStock con tapa",
+        "categoria": "Acero inoxidable",
+        "precio": 289000,
+        "stock": 14,
+        "material": "Acero inoxidable de acabado cepillado",
+        "descripcion": "Olla alta con dos asas laterales y tapa metálica, de inspiración profesional. Su formato está pensado para organizar preparaciones de mayor volumen como fondos, sopas y caldos.",
+        "contenido": "1 olla y 1 tapa metálica",
+        "medidas": "Capacidad de referencia: 12 litros",
+        "color": "Acero cepillado",
+        "cuidados": "Lavar y secar después del uso. Confirmar la compatibilidad de la base con tu equipo antes de una compra real."
+      },
+      {
+        "slug": "gastropro-cazo",
+        "nombre": "Cazo profesional ProSauce con tapa",
+        "categoria": "Acero inoxidable",
+        "precio": 139000,
+        "stock": 19,
+        "material": "Acero inoxidable de acabado cepillado",
+        "descripcion": "Cazo de mango largo y tapa metálica, pensado para salsas, reducciones y pequeñas preparaciones. Su diseño sencillo facilita integrarlo a una batería de cocina de trabajo.",
+        "contenido": "1 cazo y 1 tapa metálica",
+        "medidas": "Capacidad de referencia: 2 litros",
+        "color": "Acero cepillado",
+        "cuidados": "No sobrecalentar vacío. Usar protección al sujetar piezas metálicas calientes y secar después del lavado."
+      }
+    ]
+  },
+  {
+    "slug": "zenwok-house",
+    "nombre": "ZenWok House",
+    "ciudad": "Tocancipá",
+    "responsable": "Laura Chen",
+    "fundacion": 2022,
+    "lema": "Tradición asiática para tu cocina de cada día.",
+    "especialidad": "Woks, vaporeras y cocina asiática",
+    "descripcion": "Herramientas para explorar salteados, cocciones al vapor y preparaciones de inspiración asiática. Woks de acero al carbono, vaporeras de bambú y accesorios que unen técnica y sencillez.",
+    "historia": "En esta historia de demostración, Laura Chen crea ZenWok House en Tocancipá para acercar utensilios de cocina asiática a hogares y pequeños restaurantes de la Sabana. El enfoque combina herramientas concretas con orientación para comprender cómo cuidarlas y utilizarlas.\n\nEl catálogo comienza con dos clásicos: el wok y la vaporera de bambú. A partir de ellos, la marca propone descubrir formas de saltear, cocinar al vapor y servir sin complicar la experiencia con accesorios innecesarios.",
+    "valores": [
+      "Respeto por la técnica",
+      "Aprendizaje sencillo",
+      "Tradición cotidiana"
+    ],
+    "servicios": [
+      "Orientación de curado de woks",
+      "Selección de herramientas asiáticas",
+      "Cuidado de bambú y acero al carbono"
+    ],
+    "horario": "Martes a sábado: 9:00 a. m. a 6:00 p. m.",
+    "sector": "Zona urbana de Tocancipá · punto ZW-08",
+    "color": "#a6382b",
+    "banner": "steel-pan",
+    "productos": [
+      {
+        "slug": "zenwok-wok",
+        "nombre": "Wok de acero al carbono Hikari",
+        "categoria": "Utensilios",
+        "precio": 159000,
+        "stock": 21,
+        "material": "Acero al carbono con mango de bambú",
+        "descripcion": "Wok negro de base plana, mango largo de bambú y asa auxiliar. Una herramienta de inspiración asiática para practicar salteados y comprender el manejo del acero al carbono.",
+        "contenido": "1 wok sin tapa",
+        "medidas": "Diámetro de referencia: 32 cm",
+        "color": "Negro y bambú natural",
+        "cuidados": "Realizar el curado según las indicaciones del fabricante. Secar inmediatamente y aplicar una película ligera de aceite para evitar oxidación."
+      },
+      {
+        "slug": "zenwok-vaporera",
+        "nombre": "Vaporera de bambú Nube de dos niveles",
+        "categoria": "Utensilios",
+        "precio": 98000,
+        "stock": 23,
+        "material": "Bambú natural tejido",
+        "descripcion": "Vaporera de dos canastillas apilables y tapa tejida, de apariencia tradicional. Permite organizar preparaciones al vapor en niveles y llevar una estética natural al servicio.",
+        "contenido": "2 canastillas y 1 tapa de bambú",
+        "medidas": "Diámetro de referencia: 24 cm",
+        "color": "Bambú natural",
+        "cuidados": "Comprobar ajuste al recipiente de cocción. Lavar a mano y dejar secar completamente al aire antes de guardar."
+      }
+    ]
+  },
+  {
+    "slug": "inoxa-cookware",
+    "nombre": "Inoxa Cookware",
+    "ciudad": "Mosquera",
+    "responsable": "Santiago Duarte",
+    "fundacion": 2018,
+    "lema": "Acero para acompañar muchas recetas.",
+    "especialidad": "Ollas y baterías de acero inoxidable",
+    "descripcion": "Ollas, sartenes y baterías de cocina de acero inoxidable de diseño sobrio. Una propuesta enfocada en piezas de cocción versátiles y en información clara sobre materiales y mantenimiento.",
+    "historia": "Inoxa Cookware es una marca ficticia situada en Mosquera, concebida por Santiago Duarte para acompañar la elección de una batería de cocina. Su propuesta busca ordenar las opciones por tipo de preparación, formato y necesidades del hogar.\n\nLa selección se centra en acero inoxidable, asas sencillas y superficies sin adornos. La marca prioriza explicar cómo precalentar, limpiar y conservar las piezas, recordando que un buen resultado también depende de conocer el utensilio que se utiliza.",
+    "valores": [
+      "Durabilidad de uso",
+      "Diseño sobrio",
+      "Información práctica"
+    ],
+    "servicios": [
+      "Selección de baterías de cocina",
+      "Orientación de limpieza de acero",
+      "Comparación de formatos de cocción"
+    ],
+    "horario": "Lunes a viernes: 8:30 a. m. a 5:30 p. m. · Sábado: 9:00 a. m. a 2:00 p. m.",
+    "sector": "Zona comercial de Mosquera · sala IN-09",
+    "color": "#58636d",
+    "banner": "steel-pot",
+    "productos": [
+      {
+        "slug": "inoxa-bateria",
+        "nombre": "Batería de cocina Nova de seis piezas",
+        "categoria": "Acero inoxidable",
+        "precio": 499000,
+        "stock": 11,
+        "material": "Acero inoxidable con tapas de vidrio",
+        "descripcion": "Conjunto de tres ollas de distintos tamaños con sus tapas de vidrio. Una base para organizar diferentes preparaciones en una cocina doméstica de estética sobria.",
+        "contenido": "3 ollas y 3 tapas de vidrio",
+        "medidas": "Capacidades de referencia: 2, 4 y 6 litros",
+        "color": "Acero pulido y vidrio transparente",
+        "cuidados": "Lavar con productos no abrasivos y secar para reducir marcas de agua. Verificar compatibilidad de la base antes de una compra real."
+      },
+      {
+        "slug": "inoxa-sarten",
+        "nombre": "Sartén de acero inoxidable Nova",
+        "categoria": "Acero inoxidable",
+        "precio": 149000,
+        "stock": 26,
+        "material": "Acero inoxidable de interior cepillado",
+        "descripcion": "Sartén de lados inclinados y mango metálico largo, con una superficie interior de acabado cepillado. Una pieza versátil para practicar técnicas de sellado y cocción con acero inoxidable.",
+        "contenido": "1 sartén sin tapa",
+        "medidas": "Diámetro de referencia: 24 cm",
+        "color": "Acero inoxidable",
+        "cuidados": "Precalentar de forma gradual, no sobrecalentar vacío y usar protección al manipular el mango caliente."
+      }
+    ]
+  },
+  {
+    "slug": "silveredge-cutlery",
+    "nombre": "SilverEdge Cutlery",
+    "ciudad": "Zipaquirá",
+    "responsable": "Isabella Peña",
+    "fundacion": 2019,
+    "lema": "El detalle que completa tu mesa.",
+    "especialidad": "Cubiertos y piezas de servicio en acero",
+    "descripcion": "Juegos de cubiertos y accesorios de servicio de líneas elegantes y acabado pulido. Piezas pensadas para combinar con mesas contemporáneas, vajillas clásicas y diferentes ocasiones de uso.",
+    "historia": "La historia ficticia de SilverEdge Cutlery comienza en Zipaquirá con Isabella Peña y una idea: los cubiertos son pequeños objetos que se utilizan a diario y también forman parte del lenguaje de una mesa. Por eso la marca imagina colecciones sobrias, con proporciones cómodas y un acabado visual cuidado.\n\nSu selección reúne juegos para el hogar y utensilios de servicio que pueden combinarse con distintas vajillas. La atención se centra en la composición de cada set, la forma de las piezas y el mantenimiento del acero pulido.",
+    "valores": [
+      "Elegancia sencilla",
+      "Composición equilibrada",
+      "Cuidado del uso diario"
+    ],
+    "servicios": [
+      "Selección de juegos de cubiertos",
+      "Accesorios para el servicio de mesa",
+      "Orientación para conservar el pulido"
+    ],
+    "horario": "Lunes a sábado: 9:00 a. m. a 6:00 p. m.",
+    "sector": "Centro de Zipaquirá · sala SE-10",
+    "color": "#535e67",
+    "banner": "steel-ladle",
+    "productos": [
+      {
+        "slug": "silveredge-cubiertos",
+        "nombre": "Juego de cubiertos Línea de 24 piezas",
+        "categoria": "Utensilios",
+        "precio": 189000,
+        "stock": 17,
+        "material": "Acero inoxidable de acabado espejo",
+        "descripcion": "Juego para seis puestos con tenedores, cuchillos, cucharas y cucharitas de mango sencillo y acabado espejo. Una colección de estilo neutro para acompañar distintas vajillas.",
+        "contenido": "6 tenedores, 6 cuchillos, 6 cucharas y 6 cucharitas",
+        "medidas": "Servicio para 6 personas",
+        "color": "Acero pulido",
+        "cuidados": "Lavar y secar después del uso. Evitar fibras metálicas y almacenar las piezas sin humedad."
+      },
+      {
+        "slug": "silveredge-ensalada",
+        "nombre": "Dúo para servir ensalada Arco",
+        "categoria": "Utensilios",
+        "precio": 67000,
+        "stock": 28,
+        "material": "Acero inoxidable de acabado espejo",
+        "descripcion": "Dos utensilios largos de servicio: una cuchara amplia y un tenedor de ensalada a juego. Sus líneas suaves se coordinan con el juego Línea y con piezas de mesa de diferentes estilos.",
+        "contenido": "1 cuchara y 1 tenedor de servicio",
+        "medidas": "Longitud de referencia: 28 cm",
+        "color": "Acero pulido",
+        "cuidados": "Usar esponja suave y secar para conservar el acabado. Evitar abrasivos y contacto prolongado con alimentos ácidos."
+      }
+    ]
+  }
+]

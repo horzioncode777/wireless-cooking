@@ -1,0 +1,10 @@
+import { Router } from 'express';
+import { verifyToken } from '../middlewares/auth.middleware.js';
+import { asyncRoute } from '../utils/http.js';
+import { rateLimit } from '../middlewares/rateLimit.js';
+import { getProductReviews,getMyProductReview,upsertReview } from '../controllers/reviews.controller.js';
+const router=Router();
+router.get('/product/:id',asyncRoute(getProductReviews));
+router.get('/product/:id/mine',verifyToken,asyncRoute(getMyProductReview));
+router.post('/',verifyToken,rateLimit(20),asyncRoute(upsertReview));
+export default router;

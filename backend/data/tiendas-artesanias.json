@@ -1,0 +1,92 @@
+[
+  {
+    "slug": "raices-de-la-sabana",
+    "nombre": "Raíces de la Sabana",
+    "ciudad": "Nemocón",
+    "responsable": "Lucía Cárdenas",
+    "fundacion": 2018,
+    "lema": "Fibras que cuentan historias en tu mesa.",
+    "especialidad": "Cestería y tejidos de fibras naturales",
+    "descripcion": "Canastas, individuales y piezas para la mesa inspiradas en la cestería tradicional. Fibras naturales, tonos cálidos y tramas visibles que aportan textura a los espacios cotidianos.",
+    "historia": "Raíces de la Sabana es una marca ficticia nacida en Nemocón alrededor del interés de Lucía Cárdenas por las fibras y los objetos tejidos. Su propuesta recoge la calma de los paisajes de la Sabana y la transforma en piezas sencillas para preparar una mesa cercana y acogedora.\n\nLas colecciones combinan tramas en espiral, bordes trenzados y colores naturales. Una canasta para el pan o un conjunto de individuales se conciben como objetos útiles que también permiten apreciar el detalle del tejido y la calidez de los materiales.",
+    "valores": ["Identidad artesanal", "Belleza de las fibras", "Objetos para compartir"],
+    "servicios": ["Selección de cestería para la mesa", "Combinaciones de fibras y textiles", "Orientación para el cuidado de tejidos"],
+    "horario": "Martes a sábado: 9:00 a. m. a 5:30 p. m. · Domingo: 10:00 a. m. a 2:00 p. m.",
+    "sector": "Centro artesanal de Nemocón · taller RS-11",
+    "color": "#6d7143",
+    "banner": "natural-basket",
+    "productos": [
+      {
+        "slug": "raices-canasta",
+        "nombre": "Canasta artesanal de fique Nido",
+        "categoria": "Artesanías",
+        "precio": 68000,
+        "stock": 14,
+        "material": "Fibra natural de fique tejida",
+        "descripcion": "Canasta ovalada de tejido compacto, borde trenzado y dos asas pequeñas. Su color natural y su perfil bajo permiten acompañar la mesa o mantener organizados pequeños objetos del hogar. Se vende vacía, sin accesorios.",
+        "contenido": "1 canasta ovalada con dos asas",
+        "medidas": "Referencia: 30 cm de largo y 20 cm de ancho",
+        "color": "Beige natural y miel",
+        "cuidados": "Retirar el polvo con cepillo suave. Limpiar con paño apenas húmedo, secar al aire y evitar remojar o guardar en ambientes húmedos. Para servir pan, usar una servilleta limpia como forro."
+      },
+      {
+        "slug": "raices-individuales",
+        "nombre": "Set de cuatro individuales de fique Espiral",
+        "categoria": "Artesanías",
+        "precio": 92000,
+        "stock": 18,
+        "material": "Fibra natural de fique con borde trenzado",
+        "descripcion": "Cuatro individuales redondos de trama concéntrica y borde en tono miel. Una base cálida para combinar con vajillas de cerámica, porcelana o acero. Las pequeñas variaciones de textura forman parte de su estética artesanal.",
+        "contenido": "4 individuales redondos",
+        "medidas": "Diámetro de referencia: 35 cm por individual",
+        "color": "Beige natural con borde miel",
+        "cuidados": "Limpiar con cepillo o paño ligeramente húmedo. Secar extendidos, evitar el remojo y no apoyar recipientes recién retirados del fuego."
+      }
+    ]
+  },
+  {
+    "slug": "telar-del-altiplano",
+    "nombre": "Telar del Altiplano",
+    "ciudad": "Gachancipá",
+    "responsable": "Elena Suárez",
+    "fundacion": 2020,
+    "lema": "Cada hilo, un lugar para compartir.",
+    "especialidad": "Textiles artesanales para vestir la mesa",
+    "descripcion": "Caminos de mesa y servilletas de algodón de inspiración artesanal. Tejidos con textura, franjas terracota y detalles geométricos para crear mesas serenas y llenas de personalidad.",
+    "historia": "Telar del Altiplano es una marca ficticia imaginada en Gachancipá por Elena Suárez. Parte del gusto por las telas que dejan ver su trama y por las mesas que se construyen con objetos sencillos, colores de la tierra y pequeños detalles de diseño.\n\nSu colección propone caminos y servilletas en algodón marfil, con franjas terracota y acentos oliva. Son piezas pensadas para combinar entre sí o acompañar vajillas de otros estilos, con orientación de cuidado para conservar su textura y presentación.",
+    "valores": ["Textura e identidad", "Diseño para el día a día", "Cuidado de los detalles"],
+    "servicios": ["Composición de mesas con textiles", "Selección de caminos y servilletas", "Orientación de lavado y conservación"],
+    "horario": "Lunes a viernes: 9:00 a. m. a 6:00 p. m. · Sábado: 9:00 a. m. a 3:00 p. m.",
+    "sector": "Centro de Gachancipá · estudio textil TA-12",
+    "color": "#a15c40",
+    "banner": "woven-table-linen",
+    "productos": [
+      {
+        "slug": "telar-camino",
+        "nombre": "Camino de mesa artesanal Horizonte",
+        "categoria": "Artesanías",
+        "precio": 118000,
+        "stock": 12,
+        "material": "Algodón tejido con acabado de flecos",
+        "descripcion": "Camino de mesa marfil con franjas terracota, una banda geométrica oliva en cada extremo y flecos cortos. Su textura y su paleta natural permiten crear un punto central sin recargar la mesa. No incluye vajilla ni otros accesorios.",
+        "contenido": "1 camino de mesa",
+        "medidas": "Referencia: 180 cm de largo y 35 cm de ancho",
+        "color": "Marfil, terracota y oliva",
+        "cuidados": "Lavar a mano con agua fría y jabón suave. No usar blanqueador. Secar extendido a la sombra y planchar a temperatura baja por el reverso."
+      },
+      {
+        "slug": "telar-servilletas",
+        "nombre": "Set de cuatro servilletas de algodón Trama",
+        "categoria": "Artesanías",
+        "precio": 76000,
+        "stock": 20,
+        "material": "Algodón tejido con dobladillo cosido",
+        "descripcion": "Cuatro servilletas de tela marfil con una doble línea terracota junto al borde. Una propuesta reutilizable y de apariencia artesanal para acompañar comidas diarias o mesas especiales. Se venden sin aros ni accesorios.",
+        "contenido": "4 servilletas de tela",
+        "medidas": "Referencia: 40 × 40 cm por servilleta",
+        "color": "Marfil y terracota",
+        "cuidados": "Lavar con colores similares y agua fría. Evitar blanqueadores, secar a la sombra y planchar a temperatura baja para cuidar la trama."
+      }
+    ]
+  }
+]
