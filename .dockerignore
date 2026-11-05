@@ -1,0 +1,26 @@
+# An allowlist keeps credentials, local PostgreSQL, uploads and test evidence out.
+**
+!Dockerfile
+!backend/
+!backend/package.json
+!backend/package-lock.json
+!backend/src/
+!backend/src/**
+!backend/db/
+!backend/db/schema.sql
+!backend/scripts/
+!backend/scripts/migrate.js
+!backend/scripts/create-admin.js
+!backend/demo-assets/
+!backend/demo-assets/**
+!frontend/
+!frontend/package.json
+!frontend/package-lock.json
+!frontend/index.html
+!frontend/vite.config.js
+!frontend/src/
+!frontend/src/**
+!frontend/public/
+!frontend/public/**
+!shared/
+!shared/**
